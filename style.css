@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+.container-image {
+  width: 60vw;
+  height: 50rem;
+  border-radius: 1rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background-image: url(./Images/pexels-anne-sophie-parent-1111377-2105416.jpg);
+  background-size: cover;
+  animation: gallary 20s linear infinite;
+}
+@keyframes gallary {
+  0% {
+    background-image: url(./Images/pexels-eberhardgross-592284.jpg);
+  }
+  14% {
+    background-image: url(./Images/pexels-enrique-2887497.jpg);
+  }
+  28% {
+    background-image: url(./Images/pexels-podnar2018-1424239.jpg);
+  }
+  42% {
+    background-image: url(./Images/pexels-pok-rie-33563-697313.jpg);
+  }
+  56% {
+    background-image: url(./Images/pexels-sebastians-1276518.jpg);
+  }
+  70% {
+    background-image: url(./Images/pexels-tiana-18128-614484.jpg);
+  }
+}
